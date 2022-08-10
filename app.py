@@ -1,4 +1,6 @@
 from flask import Flask
+from models.orders import Order
+from models.orders_list import *
 
 app = Flask(__name__)
 

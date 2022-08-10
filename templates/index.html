@@ -7,6 +7,16 @@
     <title>{{title}}</title>
 </head>
 <body>
+    <h1>customer orders</h1>
+    <ul>
+        {% for order in orders %}
+        <li>
+            <p>{{ order.product_name }} {{ order.item_price }} quantity: {{ order.quantity }}</p>
+            <p>{{ order.customer_name }} date: {{ order.date}} </p>
+        </li>
+        {% endfor %}
+
+    </ul>
     
 </body>
 </html>
