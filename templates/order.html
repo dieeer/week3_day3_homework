@@ -4,14 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kwik-e mart POS - customer order view</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="http://fonts.cdnfonts.com/css/homer-simpson-revised" rel="stylesheet">
+    <title>kwik-e mart POS - customer order number</title>
 </head>
 <body>
-        <h1>kwik-e mart POS - single order</h1>
-        <p>
-        {{ order.product_name }} {{ order.item_price }} quantity: {{ order.quantity }}</p>
+    <header>
+        <!-- <a href="/../"><img src="https://www.gran-turismo.com/gtsport/decal/7205860563779354624_1.png" alt="header-logo"></a> -->
+        <h1>        
+            <a href="/../"><img src="https://www.gran-turismo.com/gtsport/decal/7205860563779354624_1.png" alt="header-logo">
+            </a> kwik-e mart POS - customer order</h1>
+        </header>
+        <main>
+            <div><p>{{ order.product_name }}</p><p>${{ order.item_price }} </p> <p> quantity: {{ order.quantity }}</p>
 
-        <p>{{ order.customer_name }} date: {{ order.date}} </p>
-    
+        <p>{{ order.customer_name }} </p><p> date: {{ order.date}} </p>
+    </div>
+        </main>
+    <footer>copyright justin/kwik-e mart </footer>
 </body>
 </html>

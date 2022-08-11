@@ -1,0 +1,81 @@
+body{
+    font-family: 'Homer Simpson Revised', sans-serif;}
+
+
+div {
+    justify-content: left;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+header > h1{
+    background-color: #f95528;
+    height: 4rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    justify-content: top;
+    width: 100%;
+}
+img {
+    max-height: 96px;
+    max-width: 128px;
+}
+
+p{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(172, 242, 244);
+    box-shadow:#fff;
+    border-radius: 6px;
+    grid-template-rows: auto;
+    
+
+    
+}
+
+
+ul> li{
+    list-style-type: none;
+    background-color: rgb(172, 242, 244);
+    box-shadow: 2rem;
+    border-radius: 6px;
+}
+a{
+    list-style-type:none;
+    text-shadow: blueviolet 1rem;
+    padding-left:0px;
+}
+
+#line1{
+    font-size: 2rem;
+}
+
+#line1:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#table{
+    text-align: center;
+}
+
+#order{
+    font-size: 4rem;
+    display: flex;
+    grid-template-columns: auto;
+}
+
+footer{    
+    background-color: #f95528;
+    color:#fff;
+    position: fixed;
+    padding 16px;
+    width: 100%;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    font-size: 1.5rem;
+    }
