@@ -1,12 +1,14 @@
 body{
     font-family: 'Homer Simpson Revised', sans-serif;
+    background-color: rgb(235, 251, 235);
 }
 
 
 div {
     justify-content: left;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     width: 100%;
+    font-size: 2rem;
 }
 
 header > h1{
@@ -75,7 +77,6 @@ a{
 }
 
 #order{
-    font-size: 6rem;
     display: flex;
     grid-template-columns: auto;
 }
@@ -91,4 +92,7 @@ footer{
     height: 60px;
     font-size: 1.5rem;
     left: 0px !important;
+    padding: 16px;
+    margin-top: 16px;
+    float: inline-end;
     }
