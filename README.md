@@ -1,4 +1,4 @@
-## kwik-e mart pos system built in html, djinja2, python and flask
+## kwik-e mart order-management system built in html, djinja2, python and flask
 
 
-# week3_day3_homework
+# week3_day3_homework @codeclan
